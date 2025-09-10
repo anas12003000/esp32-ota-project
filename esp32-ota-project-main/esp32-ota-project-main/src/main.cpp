@@ -113,7 +113,7 @@ class MyAdvertisedDeviceCallbacks: public BLEAdvertisedDeviceCallbacks {
 };
 
 // WiFi connection with retry logic
-void connectWiFi() {
+void connec  tWiFi() {
     bool connected = false;
     Serial.println("[WiFi] Scanning for available networks...");
     int n = WiFi.scanNetworks();
